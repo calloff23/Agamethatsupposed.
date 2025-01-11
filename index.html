@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jump & Slide Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="gameContainer">
+        <div id="gameArea">
+            <canvas id="gameCanvas"></canvas>
+        </div>
+        <div id="menu">
+            <button onclick="startGame()">Start Game</button>
+            <button onclick="openSettings()">Settings</button>
+            <button onclick="openInfo()">Info</button>
+            <button onclick="openPolicy()">Policy</button>
+            <button onclick="openCopyright()">Copyright</button>
+        </div>
+        <div id="info">
+            <p>This game is made by Sharewin A. Ruiz, TVL 12 student from Nicolite Montessori School.</p>
+            <p>Made and coded by me.</p>
+            <button onclick="closeInfo()">Close</button>
+        </div>
+        <div id="settings">
+            <button onclick="closeSettings()">Close Settings</button>
+        </div>
+        <div id="policy">
+            <p>Privacy Policy</p>
+            <button onclick="closePolicy()">Close Policy</button>
+        </div>
+        <div id="copyright">
+            <p>&copy; 2025 Sharewin A. Ruiz. All rights reserved.</p>
+            <button onclick="closeCopyright()">Close</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
